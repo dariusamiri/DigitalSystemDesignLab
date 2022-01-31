@@ -1,0 +1,4 @@
+verilog work "JKFF.v"
+verilog work "up_down_counter.v"
+verilog work "DFF.v"
+verilog work "main.v"
