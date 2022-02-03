@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 az1.ngc az1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o az1_map.ncd az1.ngd az1.pcf 
+par -w -intstyle ise -ol high -t 1 az1_map.ncd az1.ncd az1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml az1.twx az1.ncd -o az1.twr az1.pcf 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
+xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr" 
