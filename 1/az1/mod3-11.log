@@ -1,0 +1,30 @@
+
+Started : "Synthesize - XST".
+Running xst...
+Command Line: xst -intstyle ise -ifn "C:/Users/Zarineh/Desktop/1/az1/az1.xst" -ofn "C:/Users/Zarineh/Desktop/1/az1/az1.syr"
+Reading design: az1.prj
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "az1.v" in library work
+Module <az1> compiled
+Module <bcd_mod11> compiled
+Module <bcd_mod3> compiled
+ERROR:HDLCompilers:27 - "az1.v" line 108 Illegal redeclaration of 'adder1'
+Module <bcd_3_add_each> compiled
+Module <adder_4bit> compiled
+Module <comp_5bit> compiled
+Analysis of file <"az1.prj"> failed.
+--> 
+
+Total memory usage is 221528 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+
+Process "Synthesize - XST" failed
+INFO:HDLCompiler:1845 - Analyzing Verilog file "C:/Users/Zarineh/Desktop/1/az1/az1.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
